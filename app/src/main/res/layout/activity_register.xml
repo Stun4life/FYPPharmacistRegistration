@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".LoginActivity">
+    tools:context=".RegisterActivity">
 
     <EditText
         android:id="@+id/etName"
@@ -36,11 +36,5 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Register"/>
-        <Button
-            android:id="@+id/btnLoginConsultant"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Login"/>
     </LinearLayout>
 </LinearLayout>
